@@ -1,0 +1,6 @@
+pytest==6.2.4
+pytest-rerunfailures==10.1
+pytest-xdist==2.3.0
+selenium==3.141.0
+requests==2.25.1
+aiohttp==3.7.4
