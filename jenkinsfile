@@ -5,7 +5,7 @@ label any
 	stages {
 		stage("start test") {
 			steps{
-				build job: '/QA/tests',
+				build job: '/tests',
 					parameters: [
 						string(name: 'threadsCount', value: threadsCount),
 						string(name: 'runId', value: runId),
